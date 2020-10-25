@@ -17,24 +17,8 @@ jiwer
 
 ## Model Description
 ### MFCC_delta_model
-BRNN-LSTM-CTC model
-
-Input: 40 MFCC coefficient + 40 delta + 40 delta-delta
-
-Model: 500 hidden units
-
-       0.01 L2 regularization
-       
-       0.04 dropout
+BRNN-LSTM-CTC model         Input: 40 MFCC coefficient + 40 delta + 40 delta-delta
 
 ### Log_filter_bank_energy_model 
-BRNN-LSTM-CTC model
-
-Input: 80 log filter bank energy
-
-Model: 500 hidden units
-
-       0.05 L2 regularization
-       
-       0.04 dropout
+BRNN-LSTM-CTC model         Input: 80 log filter bank energy
 
