@@ -16,9 +16,9 @@ python_speech_features
 jiwer
 
 ## Model Description
-### MFCC_delta_model
-BRNN-LSTM-CTC model         Input: 40 MFCC coefficient + 40 delta + 40 delta-delta
+##### MFCC_delta_model
+BRNN-LSTM-CTC model input: 40 MFCC coefficient + 40 delta + 40 delta-delta
 
-### Log_filter_bank_energy_model 
-BRNN-LSTM-CTC model         Input: 80 log filter bank energy
+##### Log_filter_bank_energy_model 
+BRNN-LSTM-CTC model input: 80 log filter bank energy
 
