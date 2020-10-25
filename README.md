@@ -3,8 +3,10 @@
 End-to-end character-level BRNN-LSTM-CTC Keras model for speech recognition.
 
 ## Environment: 
-conda 4.8.3
+conda 4.8.3 
+
 Python 3.7.4
+
 Keras 2.3.0-tf
 TensorFlow 2.2.0
 python_speech_features
